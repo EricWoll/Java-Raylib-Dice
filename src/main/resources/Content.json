@@ -1,0 +1,29 @@
+{
+  "opening": {
+    "scenario": "Welcome to the Application",
+    "actions": [ {
+      "name": "Do Something",
+      "goTo": "nextScenario"
+    }, {
+        "name": "Exit",
+        "goTo": "exitScenario"
+    }]
+  },
+    "nextScenario": {
+      "scenario": "You chose to do something.",
+      "actions": [ {
+        "name": "Continue",
+        "goTo": "finalScenario"
+      }, {
+        "name": "Go Back",
+        "goTo": "opening"
+      }]
+    },
+    "finalScenario": {
+        "scenario": "This is the final scenario.",
+        "actions": [ {
+            "name": "Restart",
+            "goTo": "opening"
+        }]
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "madeBy": "Eric Woll",
+  "version": "0.0.1",
+  "description": "A simple dice roller to play against friends.",
+  "tags": ["dice", "game", "multiplayer"],
+  "startNode": "opening"
+}
